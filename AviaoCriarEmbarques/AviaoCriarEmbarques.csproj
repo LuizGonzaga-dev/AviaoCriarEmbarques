@@ -89,11 +89,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CriarEmbarques.cs" />
+    <Compile Include="Plugins\CriarEmbarques.cs" />
     <Compile Include="Helpers\Listas.cs" />
     <Compile Include="Models\CreateEmbarqueModel.cs" />
     <Compile Include="Models\EmbarqueModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Plugins\ValidacaoesAoCriarEmbarque.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

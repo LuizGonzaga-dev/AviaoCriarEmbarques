@@ -27,5 +27,14 @@ namespace AviaoCriarEmbarques.Helpers
             "645870001",
             "645870002"
         };
+
+        public enum EventStage
+        {
+            PreValidation = 10, PreOperation = 20, PostOperation = 40,
+        }
+        public enum ExecutionMode
+        {
+            Synchronous = 0, Asynchronous = 1,
+        }
     }
 }
